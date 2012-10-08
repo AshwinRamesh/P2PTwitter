@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.*;
 
 
-public class P2PTServer {
+public class P2PTServer extends Thread{
 	
 	protected DatagramSocket socket = null;
     protected BufferedReader in = null;
